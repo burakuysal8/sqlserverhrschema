@@ -5,7 +5,7 @@
 -- SQLINES FOR EVALUATION USE ONLY (14 DAYS)
 CREATE TABLE regions
    ( region_id BIGINT 
-   CONSTRAINT region_id_nn NOT NULL NOT NULL /* SQLines: Added for PK */ 
+   CONSTRAINT region_id_nn NOT NULL /* SQLines: Added for PK */ 
    , region_name VARCHAR(25) 
    );
 CREATE UNIQUE INDEX reg_id_pk_2
